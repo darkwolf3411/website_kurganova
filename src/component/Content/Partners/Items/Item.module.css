@@ -1,0 +1,35 @@
+.wrapper{
+    max-width: 65vw;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 40px;
+}
+
+.item{
+    display: grid;
+    position: relative;
+}
+.item:hover{
+    -webkit-box-shadow: 0px 0px 12px 0px #707070; 
+    box-shadow: 0px 0px 12px 0px #707070;
+    transition: all .5s ease;
+}
+
+.item > span::before{
+    content: "тел.";
+    color: red;
+}
+
+.item > a::before{
+    content: "сайт";
+    color: red;
+}
+
+.item{
+    justify-items: center;
+    align-items: center;
+}
+
+.item > a {
+    font-weight: normal;
+}

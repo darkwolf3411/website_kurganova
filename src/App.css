@@ -1,0 +1,19 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+.app-wrapper {
+  display: grid;
+  grid-template-areas: 
+  'header header header'
+  'navbar navbar navbar'
+  'mainpage mainpage mainpage'
+  'footer footer footer';
+  grid-gap: 10px;
+}
+
+.Mainpage-wrapper{
+  grid-area: mainpage;
+  max-width: 65vw;
+  margin: 0 auto;
+}

@@ -1,0 +1,86 @@
+.email_block_wrapper{
+	max-width: 65vw;
+	margin: 20px auto;
+	min-height: 60px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 0.6fr;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.email_block_wrapper img {
+	justify-self: end;
+	border-radius: 50%;
+    max-height: 40px;
+}
+
+.email_block_wrapper .email_label{
+	display: grid;
+	grid-template-columns: 0.5fr 1fr;
+	grid-template-rows: 1fr;
+	justify-items: center;
+	align-items: center;
+	color:rgba(2, 0, 0, 0.774);
+	font-weight: bold;
+}
+.email_label label{
+padding: 5px;
+}
+.email_input{
+	display: grid;
+	justify-items: end;
+	align-items: center;
+	padding-right: 20px;
+}
+.email_input > input{
+	border: none;
+	border-radius: 4px;
+	min-width: 500px;
+	min-height: 20px;
+}
+.email_input input:focus{
+	border: 0px;
+}
+.email_button_wrapper{
+
+	display: grid;
+	justify-items: start;
+	align-items: center;
+}
+.email_button {
+	background: #3D94F6;
+	background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+	background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+	background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+	background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+	background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	color: #FFFFFF;
+	font-family: Arial;
+	font-size: 20px;
+	padding: 5px;
+	-webkit-box-shadow: 1px 1px 10px 0 #000000;
+	-moz-box-shadow: 1px 1px 10px 0 #000000;
+	box-shadow: 1px 1px 10px 0 #000000;
+	text-shadow: 1px 1px 10px #000000;
+	border: solid #337FED 1px;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+ }
+ 
+ .email_button:hover {
+	border: solid #337FED 1px;
+	background: #1E62D0;
+	background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+	background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+	background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+	background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+	background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+ }

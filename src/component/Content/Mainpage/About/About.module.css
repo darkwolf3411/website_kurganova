@@ -1,0 +1,27 @@
+.wrapper{
+    padding-top: 20px;
+    max-width: 65vw;
+    max-height: 88vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr repeat(6,1fr);
+}
+
+span:nth-child(1){
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+h1{
+    margin: 0 0 20px 0 ;
+    font-weight: normal;
+    font-size: 30px;
+}
+h2{
+    font-weight: normal;
+}
+a{
+   font-weight: bold; 
+}

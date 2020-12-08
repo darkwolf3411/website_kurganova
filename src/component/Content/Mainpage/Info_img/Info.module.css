@@ -1,0 +1,64 @@
+.partfolio_wrapper{
+    max-width: 65vw;
+    min-height: 20vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.item:nth-child(1){
+    background-image: url(https://exporealty.ru/upload/iblock/1ac/2018_09_07_1.jpg);
+}
+.item:nth-child(2){
+    background-image: url(https://cutt.ly/nhnvFT2);
+}
+.item:nth-child(3){
+    background-image: url(https://m-strana.ru/upload/resize_cache/sprint.editor/b4e/758_467_2/b4e77abfe5ceed186088208914971470.png);
+}
+
+.item{
+    display: grid;
+    min-height: 20vh;
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+    align-content: flex-end;
+    padding: 10px;
+    position: relative;
+    cursor: default;
+}
+.item::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #43454d;
+    opacity: .25;
+}
+.item > * {
+    z-index: 1;
+}
+.item:hover{
+    background-size: 130%;
+    transition: all .5s ease;
+}
+.item:hover::before{
+    border-bottom: 3px solid red ;
+    opacity: .65;
+    transition: opacity .5s ease;
+}
+.item > span{
+    background-color: rgba(255, 0, 0, 0.8);
+    text-align: center;
+    justify-content: center;
+    color: white;
+    max-width: 250px;
+    min-height: 40px;
+    padding: 2px;
+}
+.item > span > a {
+    font-size: 20px;
+    color: white;
+}

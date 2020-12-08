@@ -1,0 +1,110 @@
+.wrapper{
+    max-width: 65vw;
+    min-height: 50vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 5px;
+}
+.item{
+    display: grid;
+    min-height: 20vh;
+    background-size: cover;
+    background-position: center;
+    text-align: start;
+    align-content: flex-end;
+    padding: 10px;
+    position: relative;
+    cursor: default;
+}
+
+.item::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #43454d;
+    opacity: .25;
+}
+.item > * {
+    z-index: 1;
+}
+.item:hover{
+    background-size: 170%;
+    transition: all .1s ease-in;
+}
+.item:not(:first-child):hover::before{
+    border-bottom: 3px solid red ;
+    opacity: .65;
+    transition: opacity .5s ease;
+}
+.item > span{
+    background-color: rgba(255, 0, 0, 0.8);
+    text-align: center;
+    justify-content: center;
+    color: white;
+    max-width: 250px;
+    min-height: 40px;
+    padding: 2px;
+    opacity: .0;
+}
+.item > span > a {
+    opacity: .0;
+    font-size: 15px;
+    color: white;
+}
+
+.item:hover span{
+    opacity: 1;
+    transition: opacity .3s ease;
+}
+.item:hover a{
+    opacity: 1;
+    transition: opacity .3s ease;
+}
+
+.item:nth-child(1){
+    background-color: red;
+    text-align: start;
+    align-content: flex-start;
+}
+
+.item:nth-child(1)>span{
+    opacity: 1;
+}
+
+.item:nth-child(1)>span>a{
+    font-size: 21px;
+    opacity: 1;
+}
+
+.item:nth-child(2){
+    background-image: url(https://is.gd/MYHtfX);
+}
+
+.item:nth-child(3){
+    background-image: url(https://is.gd/ibSdax);
+}
+
+.item:nth-child(4){
+    background-image: url(https://is.gd/UoFLJR);
+}
+
+.item:nth-child(5){
+    background-image: url(https://is.gd/tq5gSM);
+}
+
+.item:nth-child(6){
+    background-image: url(https://is.gd/npFb2g);
+}
+
+.item:nth-child(7){
+    background-image: url(https://is.gd/Hi13CL);
+}
+
+.item:nth-child(8){
+    background-image: url(https://is.gd/CCkot4);
+}

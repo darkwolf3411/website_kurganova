@@ -1,0 +1,20 @@
+.wrapper{
+    max-width: 65vw;
+    min-height: 20vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+}
+.item{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr;
+    justify-items: center;
+    margin-top: 40px;
+}
+
+.item span{
+    text-align: center;
+    max-width: 160px;
+}

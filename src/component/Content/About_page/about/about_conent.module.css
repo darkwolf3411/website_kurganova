@@ -1,0 +1,16 @@
+.About_content_wrapper{
+    padding: 0 20px;
+}
+
+img{
+    max-width: 65vw;
+}
+
+span2 {
+ font-weight: 600;
+}
+
+.About_content_wrapper li:nth-child(1){
+    margin-top: 10px;
+}
+
