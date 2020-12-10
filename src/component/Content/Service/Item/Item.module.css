@@ -31,7 +31,7 @@
 }
 .item a:hover{
     color: black;
-    transition: all .2s ease;
+    transition: all .3s ease;
 }
 
 .item .button_kyc {
@@ -39,13 +39,13 @@
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 20px;
-    color: #DD380D;
+    color: red;
     font-family: Open Sans;
     font-size: 17px;
     font-weight: 600;
     padding: 3px;
     background-color: #FFFFFF;
-    border: solid #DD380D 1px;
+    border: solid red 1px;
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
