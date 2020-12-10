@@ -5,7 +5,7 @@ import Style from './partners.module.css'
 const Partners = () => {
     return (
         <div className={Style.wrapper}>
-            <div>
+            <div className={Style.info}>
                 <h2>
                     Наши партнеры
                 </h2>

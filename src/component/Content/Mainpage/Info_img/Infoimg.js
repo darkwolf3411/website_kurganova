@@ -6,7 +6,7 @@ const Item = (props) =>{
     return (
         <div className={Style.item}>
                     <span>
-                        <a>Многоэтажки</a>
+                        <a>{props.itemname}</a>
                     </span>
                 </div>
     )

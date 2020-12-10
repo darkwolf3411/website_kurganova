@@ -4,3 +4,7 @@
 .wrapper > div{
     margin-bottom: 20px;
 }
+.info{
+    max-width: 55vw;
+    margin: 0 auto;
+}

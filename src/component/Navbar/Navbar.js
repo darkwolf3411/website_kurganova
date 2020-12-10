@@ -15,7 +15,7 @@ const Navbar = () => {
                             <li><NavLink to='staff'>Сотрудники</NavLink></li>
                         </ul>
                     </li>
-                    <li><NavLink to='' className={Style.submenu_link}>УСЛУГИ</NavLink>
+                    <li><NavLink to='service' className={Style.submenu_link}>УСЛУГИ</NavLink>
                         <ul className={Style.submenu}>
                             <li><NavLink to=''>Выбор земельного участка</NavLink></li>
                             <li><NavLink to=''>Строительство домов и коттеджей</NavLink></li>

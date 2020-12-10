@@ -8,6 +8,7 @@ import About from './component/Content/About_page/About';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Partners from './component/Content/Partners/Partners';
 import Staff from './component/Content/Staff/Staff';
+import Service from './component/Content/Service/service';
 
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
           <Route exact path='/about' component={About} />
           <Route exact path='/partners' component={Partners} />
           <Route exact path='/staff' component={Staff} />
+          <Route exact path='/service' component={Service} />
         </div>
         <Footer />
       </div>
