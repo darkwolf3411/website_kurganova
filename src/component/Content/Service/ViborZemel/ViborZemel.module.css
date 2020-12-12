@@ -3,23 +3,13 @@
     margin: 0 auto;
     display: grid;
     grid-gap: 10px;
-}
-.wrapper .header{
-    background-color: rgb(228, 228, 228);
-    height: 40px;
-}
-.header > a {
-    vertical-align: middle;
-}
-
-.header:nth-child(2)::before{
-    content: " < ";
+    margin-top: 120px;
 }
 .wrapper .picture {
     justify-self: center;
 }
 .picture > img {
-    padding: 40px;
+    padding: 10px;
     width: 600px;
 }
 .wrapper li{
@@ -28,6 +18,7 @@
 .wrapper ol > li{
     font-weight: 600;
     color: rgba(0, 0, 0, 0.849);
+    margin: 20px;
 }
 .wrapper h1{
     text-align: center;

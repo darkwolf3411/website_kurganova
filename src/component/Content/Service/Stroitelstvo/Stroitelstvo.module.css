@@ -1,0 +1,24 @@
+.wrapper{
+    max-width: 55vw;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 10px;
+}
+.wrapper .header{
+    background-color: rgb(241, 241, 241);
+    height: 40px;
+}
+.header > a {
+    display: inline;
+    vertical-align: middle;
+    font-weight: normal;
+    margin-left: 2px;
+}
+.header > a:hover {
+    color: rgb(212, 0, 0);
+    transition: all .2s ease;
+}
+
+.ass::before{
+    content: "< ";
+}
