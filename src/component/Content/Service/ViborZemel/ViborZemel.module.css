@@ -1,0 +1,34 @@
+.wrapper{
+    max-width: 55vw;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 10px;
+}
+.wrapper .header{
+    background-color: rgb(228, 228, 228);
+    height: 40px;
+}
+.header > a {
+    vertical-align: middle;
+}
+
+.header:nth-child(2)::before{
+    content: " < ";
+}
+.wrapper .picture {
+    justify-self: center;
+}
+.picture > img {
+    padding: 40px;
+    width: 600px;
+}
+.wrapper li{
+    margin: 10px;
+}
+.wrapper ol > li{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.849);
+}
+.wrapper h1{
+    text-align: center;
+}

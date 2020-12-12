@@ -9,6 +9,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Partners from './component/Content/Partners/Partners';
 import Staff from './component/Content/Staff/Staff';
 import Service from './component/Content/Service/service';
+import ViborZemel from './component/Content/Service/ViborZemel/ViborZemel';
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
           <Route exact path='/partners' component={Partners} />
           <Route exact path='/staff' component={Staff} />
           <Route exact path='/service' component={Service} />
+          <Route exact path='/ViborZemel' component={ViborZemel} />
         </div>
         <Footer />
       </div>

@@ -17,7 +17,7 @@ const Navbar = () => {
                     </li>
                     <li><NavLink to='service' className={Style.submenu_link}>УСЛУГИ</NavLink>
                         <ul className={Style.submenu}>
-                            <li><NavLink to=''>Выбор земельного участка</NavLink></li>
+                            <li><NavLink to='ViborZemel'>Выбор земельного участка</NavLink></li>
                             <li><NavLink to=''>Строительство домов и коттеджей</NavLink></li>
                             <li><NavLink to=''>Дизайн</NavLink></li>
                             <li><NavLink to=''>Строительство бань, беседок и других построек</NavLink></li>
