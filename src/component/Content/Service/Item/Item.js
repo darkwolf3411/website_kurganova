@@ -38,7 +38,7 @@ const Items = (props) => {
             src: "https://33коттеджа.рф/upload/iblock/32e/32e8eab30b1f1293ff3e9e8265378ab5.PNG",
             header: "Строительство домов и коттеджей",
             content: "Строительство дома - самый трудоемкий, длительный и важный этап в полном цикле возведения объекта недвижимости..",
-            nav: "2"
+            nav: "Stroitelstvo"
         },
         {
             src: "https://33коттеджа.рф/upload/iblock/a7b/a7b191beda6653ab4e1445248832fd06.PNG",
