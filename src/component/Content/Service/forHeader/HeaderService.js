@@ -7,7 +7,7 @@ const Header = (props) => {
         <div className={Style.header_wrapper}>
             <div className={Style.header}>
                 <div>
-                <NavLink to="Mainpage">
+                <NavLink to="/">
                     Главная
                 </NavLink>    
                 <NavLink to="ServiceList">
