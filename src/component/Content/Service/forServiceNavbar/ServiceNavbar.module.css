@@ -7,9 +7,10 @@
     padding: 16px;
 }
 .wrapper .item > a{
-    color: #2f383d;
+    color: #1d2225;
     font-size: 14px;
     position: relative;
+    font-weight: normal;
 }
 .wrapper .item > a::before{
     color: #7b8e9a;

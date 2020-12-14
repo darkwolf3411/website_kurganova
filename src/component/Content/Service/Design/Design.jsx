@@ -1,12 +1,15 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import Header from '../forHeader/HeaderService'
+import ServiceNavbar from '../forServiceNavbar/ServiceNavbar'
 import Style from './Design.module.css'
 
 const Design = (params) => {
     return (
         <div>
             <Header a1='Дизайн' nav='Design' />
+            <div className={Style.mainwrapper}>
+                <ServiceNavbar />
             <div className={Style.wrapper}>
                 <span>
                     Вы мечтаете о собственном доме. Вы представляете его себе красивым, удобным и уютным.
@@ -69,6 +72,7 @@ const Design = (params) => {
                 <div className={Style.imgBlock}>
                     <img src="https://33коттеджа.рф/upload/medialibrary/015/015cafa70c567b41a363c125207a69ca.PNG" alt="" />
                 </div>
+            </div>
             </div>
         </div>
     )

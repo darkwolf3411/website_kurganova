@@ -1,7 +1,0 @@
-.mainwrapper{
-    margin-top: 120px;
-    display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr;
-    grid-gap: 20px;
-}

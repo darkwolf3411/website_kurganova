@@ -1,7 +1,13 @@
-.wrapper{
-    padding-top: 120px;
+.mainwrapper{
+    margin-top: 120px;
     display: grid;
-    max-width: 55vw;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+}
+.wrapper{
+    display: grid;
+    max-width: 65vw;
     margin: 0 auto;
     grid-gap: 20px;
 }

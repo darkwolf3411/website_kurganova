@@ -10,46 +10,51 @@ import ServiceNavbar from './forServiceNavbar/ServiceNavbar';
 
 const Service = (props) => {
     return (
+        <BrowserRouter>
         <div>
-            {props.h}
+            <Header />
             <div className={Style.mainwrapper}>
                 <ServiceNavbar />
                 <div>
-                    {props.c}
+                <Route exact path='/ViborZemel' component={ViborZemel} />
+                <Route exact path='/Stroitelstvo' component={Stroitelstvo} />
+                <Route exact path='/Design' component={Design} />
                 </div>
             </div>
         </div>
-    )
-}
-
-
-const Services = (props) => {
-
-    let headerElements = [
-        {
-            h: <Header a1='Выбор земельного участка' nav='ViborZemel' />,
-            c: <ViborZemel />
-        },
-        {
-            h: <Header a1='Строительство домов и котетджей' nav='Stroitelstvo' />,
-            c: <Stroitelstvo />
-        },
-        {
-            h: <Header a1='Дизайн' nav='Design' />,
-            c: <Design />
-        }
-    ];
-
-    let ServiceElement = ( el => <Service h={headerElements[0].h} c={headerElements[0].c} /> )
-
-    return (
-        <BrowserRouter>
-            <div>
-                <Route exact path='/ViborZemel' component={ServiceElement(0)} />
-                <Route exact path='/Stroitelstvo' component={ServiceElement(1)} />
-                <Route exact path='/Design' component={ServiceElement(2)} />
-            </div>
         </BrowserRouter>
     )
 }
-export default Services;
+export default Service;
+
+
+
+// const Services = (props) => {
+
+//     let headerElements = [
+//         {
+//             h: <Header a1='Выбор земельного участка' nav='ViborZemel' />,
+//             c: <ViborZemel />
+//         },
+//         {
+//             h: <Header a1='Строительство домов и котетджей' nav='Stroitelstvo' />,
+//             c: <Stroitelstvo />
+//         },
+//         {
+//             h: <Header a1='Дизайн' nav='Design' />,
+//             c: <Design />
+//         }
+//     ];
+
+//     let ServiceElement = ( el => <Service h={headerElements[0].h} c={headerElements[0].c} /> )
+
+//     return (
+//         <BrowserRouter>
+//             <div>
+//                 <Route exact path='/ViborZemel' component={ServiceElement(0)} />
+//                 <Route exact path='/Stroitelstvo' component={ServiceElement(1)} />
+//                 <Route exact path='/Design' component={ServiceElement(2)} />
+//             </div>
+//         </BrowserRouter>
+//     )
+// }
