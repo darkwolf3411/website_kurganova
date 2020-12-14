@@ -1,0 +1,30 @@
+.mainwrapper{
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+}
+.wrapper{
+    padding-top: 20px;
+    display: grid;
+    max-width: 65vw;
+    margin: 0 auto;
+    grid-gap: 20px;
+}
+.wrapper span:nth-child(1) {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.wrapper .imgBlock{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+}
+.wrapper img{
+    padding: 3px;
+    border: 1px solid gray;
+    height: 300px;
+}

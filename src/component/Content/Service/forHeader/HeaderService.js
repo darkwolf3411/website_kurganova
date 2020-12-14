@@ -6,7 +6,11 @@ const Header = (props) => {
     return (
         <div className={Style.header_wrapper}>
             <div className={Style.header}>
-                <div><NavLink to="ServiceList">
+                <div>
+                <NavLink to="Mainpage">
+                    Главная
+                </NavLink>    
+                <NavLink to="ServiceList">
                     Услуги
                 </NavLink>
                     <NavLink to={props.nav} className={Style.ass}>

@@ -20,7 +20,8 @@ const Navbar = () => {
                             <li><NavLink to='ViborZemel'>Выбор земельного участка</NavLink></li>
                             <li><NavLink to='Stroitelstvo'>Строительство домов и коттеджей</NavLink></li>
                             <li><NavLink to='Design'>Дизайн</NavLink></li>
-                            <li><NavLink to=''>Строительство бань, беседок и других построек</NavLink></li>
+                            <li><NavLink to='Banya'>Строительство бань, беседок и других построек</NavLink></li>
+                            <li><NavLink to='Blagoystroystvo'>Благоустройство территории</NavLink></li>
                         </ul>
                     </li>
                     <li><NavLink to=''>Проекты</NavLink></li>

@@ -1,0 +1,28 @@
+.footerWrapper{
+    max-width: 65vw;
+    min-height: 65px;
+    padding-top: 20px;
+    border-top: 1px solid rgb(209, 209, 209);
+    display: grid;
+    text-align: start;
+    align-items: center;
+}
+.footerWrapper a {
+    padding-left: 45px;
+    position: relative;
+}
+.footerWrapper a::before{
+    position: absolute;
+    text-align: center;
+    align-content: center;
+    vertical-align: center;
+    content: "<";
+    font-size: 23px;
+    width: 35px;
+    height: 35px;
+    font-weight: bolder;
+    color: white;
+    background-color: red;
+    right:10px;
+    bottom: -10px;
+}

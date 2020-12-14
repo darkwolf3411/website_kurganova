@@ -15,7 +15,7 @@ const ServiceNavbar = (params) => {
                 <NavLink to='/Design'>Дизайн</NavLink>
             </div>
             <div className={Style.item}>
-                <NavLink to=''>Строительство бань, беседок и других построек</NavLink>
+                <NavLink to='/Banya'>Строительство бань, беседок и других построек</NavLink>
             </div>
             <div className={Style.item}>
                 <NavLink to=''>Благоустройство территории</NavLink>

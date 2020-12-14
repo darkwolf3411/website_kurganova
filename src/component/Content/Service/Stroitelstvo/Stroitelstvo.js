@@ -3,6 +3,7 @@ import Style from './Stroitelstvo.module.css'
 import { NavLink } from 'react-router-dom'
 import Header from './../forHeader/HeaderService';
 import ServiceNavbar from './../forServiceNavbar/ServiceNavbar';
+import ServiceFooter from './../ForServiceFooter/ServiceFooter';
 
 
 const Stroitelstvo = (params) => {
@@ -156,6 +157,7 @@ const Stroitelstvo = (params) => {
                             </span>
                             </div>
                         </div>
+                        <ServiceFooter />
                     </div>
                 </div>
             </div>
