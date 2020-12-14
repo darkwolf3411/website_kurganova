@@ -9,7 +9,7 @@
 }
 .header{
     display: grid;
-    max-width: 55vw;
+    max-width: 65vw;
     margin: 0 auto;
 }
 .header  a {

@@ -1,8 +1,8 @@
 import { React } from 'react';
-import Item from './Item/Item';
-import Style from './Service.module.css'
+import Item from '../Item/Item';
+import Style from './ServiceList.module.css'
 
-const Service = (props) => {
+const ServiceList = (props) => {
     return (
         <div className={Style.wrapper}>
             <h1>
@@ -16,4 +16,4 @@ const Service = (props) => {
     )
 }
 
-export default Service;
+export default ServiceList;

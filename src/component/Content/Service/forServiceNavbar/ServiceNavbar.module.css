@@ -1,0 +1,25 @@
+.wrapper{
+    padding-top: 27px;
+    width: 253px;
+}
+.wrapper .item{
+    border: 1px solid rgb(235, 235, 235);
+    padding: 16px;
+}
+.wrapper .item > a{
+    color: #2f383d;
+    font-size: 14px;
+    position: relative;
+}
+.wrapper .item > a::before{
+    color: #7b8e9a;
+    position: absolute;
+    content: ">";
+    font-size: 14px;
+    left: 217px;
+    font-weight: normal;
+    bottom: 20%;
+}
+.wrapper .item > a:hover{
+    color: #db1a1a;
+}

@@ -9,7 +9,7 @@ const Header = (props) => {
                 <div><NavLink to="service">
                     Услуги
                 </NavLink>
-                    <NavLink to="ViborZemel" className={Style.ass}>
+                    <NavLink to={props.nav} className={Style.ass}>
                         {props.a1}
                     </NavLink>
                 </div>

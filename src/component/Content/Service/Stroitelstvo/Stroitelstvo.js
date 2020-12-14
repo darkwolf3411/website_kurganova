@@ -7,7 +7,7 @@ import Header from './../forHeader/HeaderService';
 const Stroitelstvo = (params) => {
     return (
         <div className={Style.wrapper}>
-            <Header a1='Строительство домов и котетджей' />
+            <Header a1='Строительство домов и котетджей' nav='Stroitelstvo'/>
             <div className={Style.wrapper}>
                 <div>
                     <span>

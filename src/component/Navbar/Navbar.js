@@ -15,11 +15,11 @@ const Navbar = () => {
                             <li><NavLink to='staff'>Сотрудники</NavLink></li>
                         </ul>
                     </li>
-                    <li><NavLink to='service' className={Style.submenu_link}>УСЛУГИ</NavLink>
+                    <li><NavLink to='serviceList' className={Style.submenu_link}>УСЛУГИ</NavLink>
                         <ul className={Style.submenu}>
                             <li><NavLink to='ViborZemel'>Выбор земельного участка</NavLink></li>
                             <li><NavLink to='Stroitelstvo'>Строительство домов и коттеджей</NavLink></li>
-                            <li><NavLink to=''>Дизайн</NavLink></li>
+                            <li><NavLink to='Design'>Дизайн</NavLink></li>
                             <li><NavLink to=''>Строительство бань, беседок и других построек</NavLink></li>
                         </ul>
                     </li>

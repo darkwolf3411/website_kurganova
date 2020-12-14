@@ -8,10 +8,11 @@ import About from './component/Content/About_page/About';
 import { BrowserRouter, Route } from 'react-router-dom';
 import Partners from './component/Content/Partners/Partners';
 import Staff from './component/Content/Staff/Staff';
-import Service from './component/Content/Service/service';
 import ViborZemel from './component/Content/Service/ViborZemel/ViborZemel';
 import Stroitelstvo from './component/Content/Service/Stroitelstvo/Stroitelstvo';
-
+import Design from './component/Content/Service/Design/Design';
+import ServiceList from './component/Content/Service/ServiceList/serviceList';
+import Service from './component/Content/Service/Service'
 
 const App = () => {
   return (
@@ -24,9 +25,8 @@ const App = () => {
           <Route exact path='/about' component={About} />
           <Route exact path='/partners' component={Partners} />
           <Route exact path='/staff' component={Staff} />
-          <Route exact path='/service' component={Service} />
-          <Route exact path='/ViborZemel' component={ViborZemel} />
-          <Route exact path='/Stroitelstvo' component={Stroitelstvo} />
+          <Route exact path='/Service' component={Service} />
+          <Route exact path='/serviceList' component={ServiceList} />
         </div>
         <Footer />
       </div>

@@ -1,0 +1,21 @@
+.wrapper{
+    padding-top: 120px;
+    display: grid;
+    max-width: 55vw;
+    margin: 0 auto;
+    grid-gap: 20px;
+}
+.wrapper span:nth-child(1) {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.wrapper .imgBlock{
+    margin: 0 auto;
+}
+.wrapper img{
+    padding: 3px;
+    border: 1px solid gray;
+    width: 500px;
+}

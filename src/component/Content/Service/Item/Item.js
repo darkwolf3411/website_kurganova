@@ -44,7 +44,7 @@ const Items = (props) => {
             src: "https://33коттеджа.рф/upload/iblock/a7b/a7b191beda6653ab4e1445248832fd06.PNG",
             header: "Дизайн",
             content: "Вы мечтаете о собственном доме. Вы представляете его себе красивым, удобным и уютным.  И кажется, это так просто....",
-            nav: "3"
+            nav: "Design"
         },
         {
             src: "https://33коттеджа.рф/upload/iblock/a99/a99ed3f8e63acb88468fccd07d772abb.PNG",
