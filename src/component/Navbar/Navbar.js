@@ -21,7 +21,7 @@ const Navbar = () => {
                             <li><NavLink to='Stroitelstvo'>Строительство домов и коттеджей</NavLink></li>
                             <li><NavLink to='Design'>Дизайн</NavLink></li>
                             <li><NavLink to='Banya'>Строительство бань, беседок и других построек</NavLink></li>
-                            <li><NavLink to='Blagoystroystvo'>Благоустройство территории</NavLink></li>
+                            <li><NavLink to='Blagoustroistvo'>Благоустройство территории</NavLink></li>
                         </ul>
                     </li>
                     <li><NavLink to=''>Проекты</NavLink></li>

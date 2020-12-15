@@ -6,7 +6,7 @@ const ServiceFooter = (params) => {
     return(
         <div className={Style.footerWrapper}>
             <div>
-                <NavLink to='serviceList' />Вернуться к списку
+                <a href='serviceList' />Вернуться к списку
             </div>
         </div>
     )

@@ -12,8 +12,8 @@ import ViborZemel from './component/Content/Service/ViborZemel/ViborZemel';
 import Stroitelstvo from './component/Content/Service/Stroitelstvo/Stroitelstvo';
 import Design from './component/Content/Service/Design/Design';
 import ServiceList from './component/Content/Service/ServiceList/serviceList';
-import Service from './component/Content/Service/Service'
 import Banya from './component/Content/Service/Banya/Banya';
+import Blagoustroistvo from './component/Content/Service/Blagoustroistvo/Blagoustroistvo';
 
 const App = () => {
   return (
@@ -31,6 +31,7 @@ const App = () => {
           <Route exact path='/Design' component={Design} />
           <Route exact path='/serviceList' component={ServiceList} />
           <Route exact path='/Banya' component={Banya} />
+          <Route exact path='/Blagoustroistvo' component={Blagoustroistvo} />
         </div>
         <Footer />
       </div>

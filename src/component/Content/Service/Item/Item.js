@@ -9,16 +9,16 @@ const Item = (props) => {
                 <img src={props.src}></img>
                 <div>
                     <div>
-                        <NavLink to={props.nav}>
+                        <a href={props.nav}>
                             {props.header}
-                        </NavLink>
+                        </a>
                     </div>
                     <span>
                         {props.content}
                     </span>
-                    <NavLink to={props.nav} className={Style.button_kyc}>
+                    <a href={props.nav} className={Style.button_kyc}>
                         подробнее
-                    </NavLink>
+                    </a>
                 </div>
             </div>
         </div>
@@ -50,13 +50,13 @@ const Items = (props) => {
             src: "https://33коттеджа.рф/upload/iblock/a99/a99ed3f8e63acb88468fccd07d772abb.PNG",
             header: "Строительство бань, беседок и других построек",
             content: "Наличие свободного участка земли подразумевает строительство дома или коттеджа. Если сам дом уже построен, можно позаботиться о строительстве бани.",
-            nav: "4"
+            nav: "Banya"
         },
         {
             src: "https://33коттеджа.рф/upload/iblock/77d/77d8f827eb5599c99d82d7e6291bccc1.PNG",
             header: "Благоустройство территории",
             content: "Красивый респектабельный облик дому помогает придать гармоничное благоустройство территории.",
-            nav: "5"
+            nav: "Blagoustroistvo"
         },
     ];
 
