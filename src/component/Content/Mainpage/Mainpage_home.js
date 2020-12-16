@@ -6,10 +6,11 @@ import Icon from './icon/Icon';
 import Infoimg from './Info_img/Infoimg';
 import Works from './Works/Works';
 import About from './About/About';
+import Style from './Mainpage_home.module.css'
 
 const Home = () => {
     return (
-        <div>
+        <div className={Style.wrapper}>
             <Slider />
             <Info />
             <Mail />

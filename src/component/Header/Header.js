@@ -6,7 +6,7 @@ const Header = () => {
     return (
       <div className='Header-wrapper'>
         <NavLink exact to='/' className='logo'>
-          <img src='https://clck.ru/SDktY'></img>
+          <img src='https://is.gd/z5LrkR'></img>
         </NavLink>
         <h1>Houses 55</h1>
         <div className='phone'>
