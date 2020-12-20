@@ -14,12 +14,19 @@ const Slider = () => {
                     <input type="radio" name="slider" id="switch5" />
                     <div id="slides">
                         <div id="overflow">
+                            <div id='about_block_wrapper'></div>
+                        <div className='about_block'>
+                            <strong>Проекты одноэтажных домов под ипотеку!</strong>
+                            <p>Строительство дома от 70 кв.м. под ипотеку!
+Подойдет для сельской ИПОТЕКИ 2,7% годовых!
+Предложение действует до 31.12.2020г.</p>
+                        </div>
                             <div className="image">
-                                <article><img src="https://clck.ru/SEp9Q" alt='' /></article>
-                                <article><img src="https://clck.ru/SEpED" alt='' /></article>
-                                <article><img src="https://clck.ru/SEpK2" alt='' /></article>
-                                <article><img src="https://clck.ru/SEpNR" alt='' /></article>
-                                <article><img src="https://clck.ru/SEpPp" alt='' /></article>
+                                <article></article>
+                                <article></article>
+                                <article></article>
+                                <article></article>
+                                <article></article>
                             </div>
                         </div>
                     </div>

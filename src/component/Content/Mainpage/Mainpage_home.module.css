@@ -1,6 +1,5 @@
 .wrapper{
     display: grid;
     grid-template-columns: 1fr;
-    max-width: 65vw;
     margin: 0 auto;
 }

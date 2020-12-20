@@ -15,7 +15,7 @@ const Mail = () => {
                     <input placeholder='@mail.ru'></input>
                 </div>
                 <div className={Style.email_button_wrapper}>
-                    <div><a href='#' className='email_button'>ПОДПИСАТЬСЯ</a></div>
+                    <div><a href='#' className={Style.main_email_button}>ПОДПИСАТЬСЯ</a></div>
                 </div>
             </div>
         </div>

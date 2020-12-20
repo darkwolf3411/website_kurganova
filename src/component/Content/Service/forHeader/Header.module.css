@@ -1,13 +1,15 @@
 .header_wrapper{
     position: absolute;
-    top: 155px;
+    top: 115px;
     left: 0;
     right: 0;
     min-width: 99vw;
-    min-height: 100px;
+    min-height: 150px;
     background-color: rgb(241, 241, 241);
+    z-index: 1;
 }
 .header{
+    padding-top: 45px;
     display: grid;
     max-width: 65vw;
     margin: 0 auto;

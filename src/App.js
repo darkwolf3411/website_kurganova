@@ -14,6 +14,7 @@ import Design from './component/Content/Service/Design/Design';
 import ServiceList from './component/Content/Service/ServiceList/serviceList';
 import Banya from './component/Content/Service/Banya/Banya';
 import Blagoustroistvo from './component/Content/Service/Blagoustroistvo/Blagoustroistvo';
+import Projects from './component/Content/Projects/Projects';
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
           <Route exact path='/serviceList' component={ServiceList} />
           <Route exact path='/Banya' component={Banya} />
           <Route exact path='/Blagoustroistvo' component={Blagoustroistvo} />
+          <Route exact path='/Projects' component={Projects} />
         </div>
         <Footer />
       </div>

@@ -1,3 +1,7 @@
+.wrapper{
+    max-width: 65vw;
+    padding-top: 60px;
+}
 .wrapper span{
     font-weight: normal;
 }

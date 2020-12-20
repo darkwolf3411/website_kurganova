@@ -2,7 +2,10 @@
 	text-align: center;
     top: 20px;
 }
-
+.all{
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
 #slider{ /*центровка слайдера*/
 	margin: 0 auto;
 }
@@ -21,14 +24,45 @@
 	width: 100%;
 	overflow: hidden;
 }
-
-article img{ /*размер изображений слайдера*/
-    width: 100%;
-    max-height: 400px;
+.about_block{
+	position: absolute;
+	top: 160px;
+	left: 50%;
+	padding: 10px;
+	height: 200px;
+	width: 400px;
+	background-color: rgba(0, 0, 0, 0.671);
+	color: white;
+	font-size: 20px;
+	border-bottom: 2px red solid;
+	opacity: .0;
 }
-
+article article{ /*размер изображений слайдера*/
+	position: relative;
+	background-size: cover;
+	background-position: center;
+    min-width: 99vw;
+	min-height: 460px;
+	max-height: 460px;
+	z-index: -1;
+}
+article article:nth-child(1){
+	background-image: url('https://clck.ru/SEp9Q');
+}
+article article:nth-child(2){
+	background-image: url('https://clck.ru/SEpED');
+}
+article article:nth-child(3){
+	background-image: url('https://clck.ru/SEpK2');
+}
+article article:nth-child(4){
+	background-image: url('https://clck.ru/SEpNR');
+}
+article article:nth-child(5){
+	background-image: url('https://clck.ru/SEpPp');
+}
 #desktop:checked ~ #slider{ /*размер всего слайдера*/
-	min-width: 65vw; /*максимальнная длинна*/
+	min-width: 99vw; /*максимальнная длинна*/
 }
 
 label, a{ /*при наведении на стрелки или переключатели - курсор изменится*/
@@ -43,7 +77,10 @@ label, a{ /*при наведении на стрелки или переклю�
 #switch1:checked ~ #slides .image{
 	margin-left: 0;
 }
-
+#switch1:checked ~ #about_block_wrapper .about_block{
+	opacity: .9;
+	transition: all .5s ease-in-out;
+}
 #switch2:checked ~ #slides .image{
 	margin-left: -100%;
 }
@@ -61,7 +98,7 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 #controls{ /*положение блока всех управляющих элементов*/
-	margin: -25% 0 0 0;
+	margin: -23% 0 0 0;
 	width: 100%;
 	height: 50px;
 }
@@ -80,7 +117,7 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 #active label:hover{ /*поведение чекбокса при наведении*/
-	background: #76c8ff;
+	background: #ff7c7c;
 	border-color: #777 !important; /*выполнение в любом случае*/
 }
 
@@ -90,11 +127,12 @@ label, a{ /*при наведении на стрелки или переклю�
 #switch3:checked ~ #active label:nth-child(3),
 #switch4:checked ~ #active label:nth-child(4),
 #switch5:checked ~ #active label:nth-child(5){
-	background: #18a3dd;
-	border-color: #18a3dd !important;
+	background: #ff0000;
+	border-color: #ff0000 !important;
 }
 
 #slides .image{ /*анимация пролистывания изображений*/
 	transition: all 900ms ease-in-out;
 }
+
 
