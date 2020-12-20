@@ -1,0 +1,112 @@
+.mainwrapper{
+    padding-top: 190px;
+    max-width: 65vw;
+    margin: 0 auto;
+}
+.office_img_wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30;
+    max-width: 65vw;
+    margin: 0 auto;
+}
+.office_img_wrapper img{
+    padding: 10px;
+    min-width: 500px;
+    max-width: 500px;
+    min-height: 395px;
+    max-height: 395px;
+}
+.contact_info_wrapper{
+    max-width: 65vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+.one_span{
+    font-size: 15px;
+    font-weight: bold;
+}
+.info{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 500px;
+}
+
+.adress{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.adress > p::before{
+    position: absolute;
+    left: -40px;
+    top: 10px;
+    content: '';
+    width: 40px;
+    height: 35px;
+    background-image: url(./../../../images/adress.png);
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+.email{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.email > p::before{
+    position: absolute;
+    left: -39px;
+    top: 10px;
+    content: '';
+    width: 40px;
+    height: 35px;
+    background-image: url(./../../../images/mail.png);
+    background-color: white;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.phone{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.phone > p::before{
+    position: absolute;
+    left: -39px;
+    top: 10px;
+    content: '';
+    width: 40px;
+    height: 35px;
+    background-image: url(./../../../images/phone.png);
+    background-color: white;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.time_works{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 4fr;
+}
+.time_works > p::before{
+    position: absolute;
+    left: -39px;
+    top: 10px;
+    content: '';
+    width: 40px;
+    height: 35px;
+    background-image: url(./../../../images/work_time.png);
+    background-color: white;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
