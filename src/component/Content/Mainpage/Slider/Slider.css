@@ -42,21 +42,21 @@ article article{ /*размер изображений слайдера*/
 	background-size: cover;
 	background-position: center;
     min-width: 99vw;
-	min-height: 460px;
-	max-height: 460px;
+	min-height: 530px;
+	max-height: 530px;
 	z-index: -1;
 }
 article article:nth-child(1){
-	background-image: url('https://clck.ru/SEp9Q');
+	background-image: url('https://clck.ru/SEpNR');
 }
 article article:nth-child(2){
-	background-image: url('https://clck.ru/SEpED');
+	background-image: url('https://is.gd/D91P7S');
 }
 article article:nth-child(3){
 	background-image: url('https://clck.ru/SEpK2');
 }
 article article:nth-child(4){
-	background-image: url('https://clck.ru/SEpNR');
+	background-image: url('https://is.gd/nWQzb6');
 }
 article article:nth-child(5){
 	background-image: url('https://clck.ru/SEpPp');

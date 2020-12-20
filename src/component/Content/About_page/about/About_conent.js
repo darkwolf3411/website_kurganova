@@ -32,12 +32,61 @@ const About_content = () => {
                     дизайн.
                 </li>
             </ul>
+            <h2>Наши руководители</h2>
+            <div className={Style.staff_info_wrapper}>
+                <div className={Style.staff_wrapper}>
+                    <div className={Style.staff_element}>
+                        <div className={Style.staff_img}>
+                            <img src="https://is.gd/6zGQMX"/>
+                        </div>
+                        <div className={Style.staff_info}>
+                            <span className={Style.staff_famaly}>Джим Керри</span>
+                            <span className={Style.staf_pos}>Коммерческий директор</span>
+                            <a href className={Style.staff_mail}>djcerry@mail.ru</a>
+                            <span className={Style.staff_phone}>89064134567</span>
+                        </div>
+                    </div>
+                    <div className={Style.staff_element}>
+                        <div className={Style.staff_img}>
+                            <img src="https://is.gd/kBVmWj" alt />
+                        </div>
+                        <div className={Style.staff_info}>
+                            <span className={Style.staff_famaly}>Томми Кэш</span>
+                            <span className={Style.staf_post}>Финансовый директор</span>
+                            <a href className={Style.staff_mail}>tm@mail.ru</a>
+                            <span className={Style.staff_phone}>89064345644</span>
+                        </div>
+                    </div>
+                    <div className={Style.staff_element}>
+                        <div className={Style.staff_img}>
+                            <img src="https://is.gd/dh1yzR" alt />
+                        </div>
+                        <div className={Style.staff_info}>
+                            <span className={Style.staff_famaly}>Робер Дауни Мл.</span>
+                            <span className={Style.staf_post}>Операционный директор</span>
+                            <a href className={Style.staff_mail}>RoberDauni@mail.ru</a>
+                            <span className={Style.staff_phone}>89085435634</span>
+                        </div>
+                    </div>
+                    <div className={Style.staff_element}>
+                        <div className={Style.staff_img}>
+                            <img src="https://is.gd/a1dEQR" alt />
+                        </div>
+                        <div className={Style.staff_info}>
+                            <span className={Style.staff_famaly}>Киано Ривз</span>
+                            <span className={Style.staf_post}>Директор по развитию</span>
+                            <a href className={Style.staff_mail}>JonnySilverhand@mail.ru</a>
+                            <span className={Style.staff_phone}>85436452464</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <span>
-            Мы строим дома и коттеджи на территории Омска и Омской области. Средний срок службы построенного нами дома составляет 100 лет! Мастера выполняют свою работу быстро и качественно. Для каждого коттеджа предусмотрено витражное остекление, которое делает постройку еще более современной и красивой.<p></p>
+                Мы строим дома и коттеджи на территории Омска и Омской области. Средний срок службы построенного нами дома составляет 100 лет! Мастера выполняют свою работу быстро и качественно. Для каждого коттеджа предусмотрено витражное остекление, которое делает постройку еще более современной и красивой.<p></p>
 
 Бригада строителей выполнит строительство домов и коттеджей, бань и беседок, которые помогут украсить собой прилегающую к дому территорию, добавят уют и новые возможности для отдыха.<p></p>
 
-Команда профессионалов выполнит строительство "под ключ" - от момента выбора земельного участка и проектирования до сдачи готового дома клиенту с чистовой отделкой и стильным ремонтом. При работе используются высококачественные материалы и новейшие технологии. <p></p>
+Команда профессионалов выполнит строительство "под ключ" _ от момента выбора земельного участка и проектирования до сдачи готового дома клиенту с чистовой отделкой и стильным ремонтом. При работе используются высококачественные материалы и новейшие технологии. <p></p>
 
 Нам доверяют и делают это совершенно не напрасно. В подтверждение тому на сайте собраны отзывы благодарных клиентов и все необходимые сертификаты. Строительство выполняется в точном соответствии с ГОСТ и СНиП.<p></p>
 Чтобы получить консультацию и помощь специалистов, задать интересующие вопросы или заключить сотрудничество, Вы можете позвонить по контактным телефонам или оставить свою заявку прямо на сайте.<p></p>

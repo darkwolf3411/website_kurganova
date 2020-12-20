@@ -14,13 +14,13 @@ const Slider = () => {
                     <input type="radio" name="slider" id="switch5" />
                     <div id="slides">
                         <div id="overflow">
-                            <div id='about_block_wrapper'></div>
+                            {/* <div id='about_block_wrapper'></div>
                         <div className='about_block'>
                             <strong>Проекты одноэтажных домов под ипотеку!</strong>
                             <p>Строительство дома от 70 кв.м. под ипотеку!
 Подойдет для сельской ИПОТЕКИ 2,7% годовых!
 Предложение действует до 31.12.2020г.</p>
-                        </div>
+                        </div> */}
                             <div className="image">
                                 <article></article>
                                 <article></article>

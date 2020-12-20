@@ -14,3 +14,68 @@ span2 {
     margin-top: 10px;
 }
 
+.staff_info_wrapper{
+    padding-top: 20px;
+    padding-bottom: 1vw;
+    max-height: 45vh;
+    max-width: 75vw;
+    margin: 0 auto;
+    display: grid;
+}
+.staff_wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr)1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    min-width: 35vw;
+}
+.staff_element{
+    background-color: rgb(236, 236, 236);
+    display: grid;
+    min-width: 295px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    text-align: center;
+    align-items: center;
+    grid-gap: 20px;
+    padding: 5px 5px;
+}
+.staff_info{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4,1fr);
+    grid-gap: 20px;
+}
+.staff_img img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.staff_famaly{
+    font-size: 20px;
+}
+.staff_mail{
+    color: rgb(92, 92, 92);
+    font-size: 20px;
+}
+.staff_mail:hover{
+    position: relative;
+    color: rgb(255, 0, 0);
+    bottom: 1px;
+    transition: all .2s ease;
+}
+.staf_post{
+    font-size: 20px;
+}
+.staff_phone{
+    font-size: 20px;
+    text-decoration: none;
+}
+.staff_about_wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    align-self: center;
+}
