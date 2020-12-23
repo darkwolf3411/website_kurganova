@@ -3,10 +3,10 @@ import Style from './Mail_style.module.css'
 
 const Mail = () => {
     return(
-        <div>
+        <div className={Style.mail_wrapper}>
             <div className={Style.email_block_wrapper}>
                 <div className={Style.email_label}>
-                    <img src='https://www.iconpacks.net/icons/1/free-mail-icon-142-thumb.png'></img>
+                    <img src=''></img>
                     <label>
                         Подписывайтесь на новости и акции:
                     </label>

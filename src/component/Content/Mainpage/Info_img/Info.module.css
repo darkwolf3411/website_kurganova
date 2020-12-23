@@ -15,7 +15,6 @@
 .item:nth-child(3){
     background-image: url(https://m-strana.ru/upload/resize_cache/sprint.editor/b4e/758_467_2/b4e77abfe5ceed186088208914971470.png);
 }
-
 .item{
     display: grid;
     min-height: 20vh;
@@ -61,4 +60,34 @@
 .item > span > a {
     font-size: 20px;
     color: white;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .Info_item > span > a{
+        font-size: 10px;
+    }
+    .Info_item > span{
+        min-height: 96px;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
 }

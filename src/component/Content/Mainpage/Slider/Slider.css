@@ -4,7 +4,7 @@
 }
 .all{
 	padding-top: 15px;
-	padding-bottom: 20px;
+	padding-bottom: 2px;
 }
 #slider{ /*центровка слайдера*/
 	margin: 0 auto;
@@ -136,3 +136,42 @@ label, a{ /*при наведении на стрелки или переклю�
 }
 
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	#active{
+		visibility: hidden;
+	}
+	#slides article{
+		min-height: 250px;
+		max-height: 250px;
+		}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	#active{
+		visibility: visible;
+	}
+	#slides article{
+	min-height: 350px;
+    max-height: 350px;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	#slides article{
+		min-height: 530px;
+		max-height: 530px;
+		}
+}

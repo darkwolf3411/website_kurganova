@@ -3,7 +3,7 @@ import Style from './info_style.module.css'
 
 const Info = () => {
     return(
-        <div>
+        <div className={Style.mainpage_info_wrapper}>
             <div className={Style.mainpage_info}>
                 <div className={Style.info_block}>
                     <img src='https://33коттеджа.рф/upload/resize_cache/iblock/cb9/100_100_2/cb935f39392fedf47769b7f410a129e0.PNG'></img>

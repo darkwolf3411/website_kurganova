@@ -4,8 +4,8 @@ import Style from './Navbar.module.css';
 
 const Navbar = () => {
     return (
-        <div className={Style.Navbar_wrapper}>
-            <nav>
+        <div>
+            <nav className={Style.Navbar_wrapper}>
                 <ul className={Style.topmenu}>
                     <li><NavLink to='/'>Главная</NavLink></li>
                     <li><NavLink to='serviceList' className={Style.submenu_link}>УСЛУГИ</NavLink>

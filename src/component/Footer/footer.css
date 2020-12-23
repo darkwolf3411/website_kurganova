@@ -5,6 +5,8 @@
     text-align: center;
     align-content: flex-end;
     min-height: 10vh;
+    left: 0;
+    bottom: 0;
 }
 .footer_wrapper > span{
     font-size: 20px;
