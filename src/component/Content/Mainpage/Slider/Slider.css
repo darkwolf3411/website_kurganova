@@ -137,18 +137,45 @@ label, a{ /*при наведении на стрелки или переклю�
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
+@media only screen and (min-width: 480px) {
+	#controls {
+		margin: -28% 0 0 0;
+	}
+	.all{
+		padding-top: 0;
+	}
+	#active{
+		margin: 15% 0 0;
+		visibility: hidden;
+	}
+	#slides article{
+		min-height: 250px;
+		max-height: 250px;
+		}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+	.all{
+		padding-top: 15px;
+	}
+	#controls {
+		margin: -23% 0 0 0;
+	}
+	#active{
+		margin: 15% 0 0;
+		visibility: hidden;
+	}
+	#slides article{
+		min-height: 250px;
+		max-height: 250px;
+		}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 	#active{
+		margin: 17% 0 0;
 		visibility: hidden;
 	}
 	#slides article{
@@ -160,6 +187,7 @@ label, a{ /*при наведении на стрелки или переклю�
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 	#active{
+		margin: 18.5% 0 0;
 		visibility: visible;
 	}
 	#slides article{

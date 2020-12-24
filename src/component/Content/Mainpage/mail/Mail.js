@@ -6,7 +6,6 @@ const Mail = () => {
         <div className={Style.mail_wrapper}>
             <div className={Style.email_block_wrapper}>
                 <div className={Style.email_label}>
-                    <img src=''></img>
                     <label>
                         Подписывайтесь на новости и акции:
                     </label>

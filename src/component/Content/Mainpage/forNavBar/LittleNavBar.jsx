@@ -1,8 +1,8 @@
 import { React } from 'react';
 import { NavLink } from 'react-router-dom';
-import Style from './Navbar.module.css';
+import Style from './LittleNavBar.module.css';
 
-const Navbar = () => {
+const LittleNav = () => {
     return (
             <nav className={Style.Navbar_wrapper}>
                 <ul className={Style.topmenu}>
@@ -30,4 +30,4 @@ const Navbar = () => {
     );
 }
 
-export default Navbar;
+export default LittleNav;

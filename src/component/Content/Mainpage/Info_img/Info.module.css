@@ -64,13 +64,31 @@
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    
+@media only screen and (min-width: 480px) {
+    .partfolio_wrapper{
+        padding: 0 10px;
+        max-width: none;
+    }
+    .item > span > a{
+        font-size: 17px;
+    }
+    .item > span{
+        min-height: 96px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    
+    .partfolio_wrapper{
+        padding: 0 10px;
+        max-width: none;
+    }
+    .item > span > a{
+        font-size: 17px;
+    }
+    .item > span{
+        min-height: 96px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

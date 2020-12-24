@@ -73,13 +73,47 @@
 
 
  /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-
+ @media only screen and (min-width: 480px) {
+	.email_input  input{
+		min-width: 250px;
+		min-height: 22px;
+	}
+	.email_block_wrapper{
+		padding: 0 10px;
+		max-width: none;
+		margin: 0 auto;
+		grid-template-columns: 2fr 2fr 1fr;
+	}
+	.email_label label{
+		min-width: 150px;
+		font-size: 12px;
+	}
+	.main_email_button{
+		font-size: 12px;
+		padding: 7px;
+	}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-
+	.email_input  input{
+		min-width: 250px;
+		min-height: 22px;
+	}
+	.email_block_wrapper{
+		padding: 0 10px;
+		max-width: none;
+		margin: 0 auto;
+		grid-template-columns: 2fr 2fr 1fr;
+	}
+	.email_label label{
+		min-width: 150px;
+		font-size: 12px;
+	}
+	.main_email_button{
+		font-size: 12px;
+		padding: 7px;
+	}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -89,7 +123,10 @@
 		min-height: 22px;
 	}
 	.email_block_wrapper{
+		padding: 0;
+		max-width: 60vw;
 		margin: 0 auto;
+		grid-template-columns: 1fr 2fr 0.6fr;
 	}
 	.email_label label{
 		min-width: 150px;
