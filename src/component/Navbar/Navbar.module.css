@@ -102,12 +102,19 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+  .Navbar_wrapper{
+    left: 5%;
+    min-height: 50px;
+  }
+  .Navbar_topmenu li a {
+    font-size: 11px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .Navbar_wrapper{
+    left: 15.4%;
     min-height: none;
   }
   .topmenu {

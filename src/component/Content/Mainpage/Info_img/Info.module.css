@@ -75,19 +75,38 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    
+    .partfolio_wrapper{
+        max-width: 80vw;
+    }
+    .item > span > a{
+        font-size: 17px;
+    }
+    .item > span{
+        min-height: 96px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    .Info_item > span > a{
-        font-size: 10px;
+    .partfolio_wrapper{
+        max-width: 65vw;
     }
-    .Info_item > span{
+    .item > span > a{
+        font-size: 20px;
+    }
+    .item > span{
         min-height: 96px;
     }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    
+    .partfolio_wrapper{
+        max-width: 60vw;
+    }
+    .item > span > a{
+        font-size: 20px;
+    }
+    .item > span{
+        min-height: 24px;
+    }
 }

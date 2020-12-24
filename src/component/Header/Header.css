@@ -96,12 +96,28 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+  .Header-wrapper{
+    min-width: 80vw;
+    grid-template-columns: 0.5fr 1fr 1fr 0.8fr;
+  }
+  .Header-wrapper h1{
+    font-size: 20px;
+  }
+  .Header-wrapper img{
+   max-height: 40px;
+  }
+  .phone{
+   font-size: 12px;
+  }
+  .Header-wrapper .button{
+   padding: 9px 13px;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
  .Header-wrapper{
+  min-width: 65vw;
    grid-template-columns: 0.5fr 1fr 1fr 0.8fr;
  }
  .Header-wrapper h1{
