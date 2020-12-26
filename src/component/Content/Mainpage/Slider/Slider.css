@@ -135,7 +135,41 @@ label, a{ /*при наведении на стрелки или переклю�
 	transition: all 900ms ease-in-out;
 }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 280px) {
+	#controls {
+		margin: -28% 0 0 0;
+	}
+	.all{
+		padding-top: 0;
+	}
+	#active{
+		margin: 15% 0 0;
+		visibility: hidden;
+	}
+	#slides article{
+		min-height: 150px;
+		max-height: 150px;
+		}
+}
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 360px) {
+	#controls {
+		margin: -28% 0 0 0;
+	}
+	.all{
+		padding-top: 0;
+	}
+	#active{
+		margin: 15% 0 0;
+		visibility: hidden;
+	}
+	#slides article{
+		min-height: 250px;
+		max-height: 250px;
+		}
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 480px) {
 	#controls {

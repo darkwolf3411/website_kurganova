@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import './Header.css';
 import LittleNav from './../Content/Mainpage/forNavBar/LittleNavBar';
 
+
 const Header = () => {
     return (
       <div className='Header-wrapper'>
@@ -18,12 +19,6 @@ const Header = () => {
         <div className='button'>
           <a href='#'>Хочу звонок</a>
         </div>
-        {/* <div className='littlNav_button'>
-            <a>gfd</a>
-        </div>
-        <div className='littlNav'>
-        <LittleNav /> 
-        </div> */}
       </div>
     );
   }

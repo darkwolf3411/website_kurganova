@@ -88,8 +88,25 @@
         transform: scaleY(1);
       }
 
+ /* Extra small devices (phones, 480px and down) */
+ @media only screen and (min-width: 280px) {
+  .Navbar_wrapper{
+    display: none;
+  }
+  .topmenu li a {
+    font-size: 10px;
+  }
+}
 
-
+ /* Extra small devices (phones, 480px and down) */
+ @media only screen and (min-width: 360px) {
+  .Navbar_wrapper{
+    display: none;
+  }
+  .topmenu li a {
+    font-size: 10px;
+  }
+}
  /* Extra small devices (phones, 480px and down) */
  @media only screen and (min-width: 480px) {
   .Navbar_wrapper{
@@ -143,6 +160,9 @@
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
+  .Navbar_wrapper{
+    max-height: 70px;
+  }
   .topmenu {
     width: 53vw;
     margin: 20px auto;

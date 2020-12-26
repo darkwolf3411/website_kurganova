@@ -9,7 +9,7 @@
   .topmenu{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5,1fr);
+    grid-template-rows: repeat(5,30px);
   }
   nav ul {
     list-style: none;
