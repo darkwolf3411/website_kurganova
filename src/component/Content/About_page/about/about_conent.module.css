@@ -79,3 +79,7 @@ span2 {
     text-align: center;
     align-self: center;
 }
+.about_text{
+    display: block;
+    padding-top: 35px;
+}

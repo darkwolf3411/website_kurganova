@@ -1,11 +1,11 @@
 .wrapper{
     padding-top: 20px;
-    max-width: 65vw;
+    max-width: 60vw;
     max-height: 120vh;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr repeat(6,1fr);
+    grid-template-rows: 0.5fr repeat(6,min-content);
 }
 
 span:nth-child(1){
@@ -19,10 +19,12 @@ h1{
     font-weight: normal;
     font-size: 30px;
 }
-h2{
-    font-weight: normal;
+.wrapper h2{
+    margin: 10px;
+    font-weight: bold;
 }
-a{
+.wrapper a{
+    color: red;
    font-weight: bold; 
 }
 
@@ -197,7 +199,7 @@ a{
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
     .wrapper{
-        max-width: 65vw;
+        max-width: 60vw;
         max-height: 68vh;
     }
     span:nth-child(1){

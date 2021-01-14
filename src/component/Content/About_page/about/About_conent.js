@@ -1,6 +1,9 @@
 import { React } from 'react';
-import Style from './about_conent.module.css'
-
+import Style from './about_conent.module.css';
+import img1 from './img/p1.jpg'
+import img2 from './img/p2.jpg'
+import img3 from './img/p3.jpg'
+import img4 from './img/p4.jpg'
 
 const About_content = () => {
     return (
@@ -37,7 +40,7 @@ const About_content = () => {
                 <div className={Style.staff_wrapper}>
                     <div className={Style.staff_element}>
                         <div className={Style.staff_img}>
-                            <img src="https://is.gd/6zGQMX"/>
+                            <img src={img3}/>
                         </div>
                         <div className={Style.staff_info}>
                             <span className={Style.staff_famaly}>Джим Керри</span>
@@ -81,7 +84,7 @@ const About_content = () => {
                     </div>
                 </div>
             </div>
-            <span>
+            <span className={Style.about_text}>
                 Мы строим дома и коттеджи на территории Омска и Омской области. Средний срок службы построенного нами дома составляет 100 лет! Мастера выполняют свою работу быстро и качественно. Для каждого коттеджа предусмотрено витражное остекление, которое делает постройку еще более современной и красивой.<p></p>
 
 Бригада строителей выполнит строительство домов и коттеджей, бань и беседок, которые помогут украсить собой прилегающую к дому территорию, добавят уют и новые возможности для отдыха.<p></p>
